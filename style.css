@@ -1,0 +1,45 @@
+body {
+    background: #031727;
+
+}
+
+.notatka{
+    padding-top: 20px; 
+    background: #589FBF;
+    min-height: 200px;
+    min-width: 200px;
+    position: absolute;
+    left: 20;
+    top: 20;
+    border: 2px solid black;
+}
+
+.notatka .uchwyt {
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 40px;
+    background:  #589FBF;
+    width: 100%;
+  
+
+
+}
+
+
+
+.notatka textarea{
+    background: white; 
+    color: black;
+    padding:3px 10px;
+    box-sizing: border-box;
+    min-height: 200px;
+    min-width: 200px;
+    padding-top: 20px;
+    
+
+}
+
+.notatka .uchwyt:hover{
+    cursor: move;
+}
